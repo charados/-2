@@ -1,0 +1,160 @@
+.header{
+    display:flex;
+    justify-content: space-around;
+  }
+  .logo{
+    font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 25px;
+  /* identical to box height, or 100% */
+  
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  
+  color: #69B9FF;
+  
+  }
+  
+  .main {
+  /* IMAGE */
+  
+  
+  position: absolute;
+  height: 594px;
+  left: 0%;
+  right: 0%;
+  top: 40px;
+  
+  
+  background-image: url(\IMAGE.png);
+  border-radius: 0px;
+  
+  }
+  
+  .centered{
+    position: absolute;
+  width: 529px;
+  height: 60px;
+  left: calc(50% - 529px/2 + 0.5px);
+  top: 151px;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 59px;
+  line-height: 60px;
+  /* identical to box height, or 102% */
+  
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  color: #FFFFFF;
+  
+  }
+  .but{
+    /* sign up */
+  
+  
+  position: absolute;
+  width: 78px;
+  height: 21px;
+  left: calc(47% - 78px/2);
+  top: 261px;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+  
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  
+  color: #627bca;
+  
+  }
+.butt{
+    /* Learn more */
+
+
+position: absolute;
+width: 121px;
+height: 21px;
+left: calc(53% - 121px/2);
+top: 261px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height, or 131% */
+
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.wh{
+    /* what we do */
+
+
+position: absolute;
+width: 238px;
+height: 36px;
+left: calc(50% - 238px/2);
+top: 800px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 5px;
+text-transform: uppercase;
+white-space: nowrap;
+
+color: #676770;
+
+}
+
+.th{
+    /* This is some text inside of a div block. */
+
+
+position: absolute;
+width: 478px;
+height: 20px;
+left: calc(50% - 478px/2);
+top: 850px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height, or 118% */
+
+text-align: center;
+letter-spacing: 3px;
+text-transform: uppercase;
+
+color: #8E8E9C;
+
+}
+
+.icon{
+background-image: url(/IMAGE (2).png);
+border-radius: 0px;
+}
