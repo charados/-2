@@ -1,0 +1,755 @@
+.header{
+    display:flex;
+    justify-content: space-around;
+  }
+  .logo{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    
+    color: #69B9FF;
+    
+  }
+  
+.main {
+    /* IMAGE */
+    
+    
+    position: absolute;
+    height: 594px;
+    left: 0%;
+    right: 0%;
+    top: 40px;
+    
+    
+    background-image: url(\IMAGE.png);
+    border-radius: 0px;
+  
+  }
+  
+.centered{
+  position: absolute;
+  width: 529px;
+  height: 60px;
+  left: calc(50% - 529px/2 + 0.5px);
+  top: 151px;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 59px;
+  line-height: 60px;
+  /* identical to box height, or 102% */
+    
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  color: #FFFFFF;
+    
+    }
+
+  .but{
+    /* sign up */
+  position: absolute;
+  width: 78px;
+  height: 21px;
+  left: calc(47% - 78px/2);
+  top: 261px;
+    
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+    
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+    
+  color: #627bca;
+    
+}
+.butt{
+    /* Learn more */
+
+
+  position: absolute;
+  width: 121px;
+  height: 21px;
+  left: calc(53% - 111px/2);
+  top: 261px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.wh{
+    /* what we do */
+
+  position: absolute;
+  width: 238px;
+  height: 36px;
+  left: calc(50% - 238px/2);
+  top: 800px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  color: #676770;
+
+}
+
+.th{
+    /* This is some text inside of a div block. */
+  position: absolute;
+  width: 478px;
+  height: 20px;
+  left: calc(50% - 478px/2);
+  top: 850px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height, or 118% */
+
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #8E8E9C;
+
+}
+
+
+.time{
+  background-image: url(\часы.png);
+  position: absolute;
+  height: 100px;
+  left: 46.33%;
+  right: 46.33%;
+  top: 1000px;
+
+
+  /background: #69B9FF;/
+  border: 10px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px #2E9DFF;
+}
+
+.time_text{
+  /* Graphic Design */
+  position: absolute;
+  width: 253px;
+  height: 30px;
+  left: calc(50% - 253px/2 - 0.5px);
+  top: 119px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  white-space:nowrap ;
+  color: #676770;
+}
+
+.time_tx{
+  position: absolute;
+  width: 268px;
+  height: 75px;
+  left: calc(50% - 268px/2);
+  top: 183px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+
+  text-align: center;
+
+  color: #6A859C;
+}
+
+.strelki{
+  background-image: url(\стрелки.png);
+  /* IMAGE */
+
+  position: absolute;
+  height: 100px;
+  left: 46.33%;
+  right: 46.33%;
+  top: 1000px;
+
+  /background: #69B9FF;/
+  border: 10px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px #2E9DFF;
+}
+.strelki_text{
+  /* Awesome code */
+
+
+  position: absolute;
+  width: 236px;
+  height: 30px;
+  left: calc(50% - 236px/2);
+  top: 119px;
+  white-space:nowrap ;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+
+  color: #676770;
+}
+.strelki_tx{
+  position: absolute;
+  width: 268px;
+  height: 75px;
+  left: calc(50% - 268px/2);
+  top: 183px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+
+  text-align: center;
+
+  color: #6A859C;
+}
+
+.kor{
+  background-image: url(\коробка.png);
+  /* IMAGE */
+
+  position: absolute;
+  height: 100px;
+  left: 46.33%;
+  right: 46.33%;
+  top: 1000px;
+
+  /background: #69B9FF;/
+  border: 10px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px #2E9DFF;
+}
+.kor_text{
+  /* Awesome code */
+
+
+  position: absolute;
+  width: 236px;
+  height: 30px;
+  left: calc(50% - 236px/2);
+  top: 119px;
+  white-space:nowrap ;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+
+  color: #676770;
+}
+.kor_tx{
+  position: absolute;
+  width: 268px;
+  height: 75px;
+  left: calc(50% - 268px/2);
+  top: 183px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+
+  text-align: center;
+
+  color: #6A859C;
+}
+.fon2{
+  /*background-image: url(\фон.png);*/
+  /* Rectangle */
+
+
+  position: absolute;
+  height: 842px;
+  left: 0%;
+  right: 0%;
+  top: 1300px;
+
+  background: #192024;
+  border-radius: 0px;
+}
+.ser{
+    /* services */
+
+
+  position: absolute;
+  width: 170px;
+  height: 36px;
+  left: calc(50% - 170px/2);
+  top: 1350px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+.ser2{
+  /* This is some text inside of a div block. */
+
+
+  position: absolute;
+  width: 478px;
+  height: 20px;
+  left: calc(50% - 478px/2);
+  top: 1400px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height, or 118% */
+
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.fn1{
+  /* IMAGE */
+
+
+  position: absolute;
+  width: 430px;
+  height: 287px;
+  left: calc(30% - 430px/2);
+  top: 1550px;
+
+  background-image: url(\фон1.png);
+  border-radius: 0px;
+}
+
+.fn2{
+  /* IMAGE */
+
+
+  position: absolute;
+  width: 430px;
+  height: 287px;
+  left: calc(70% - 430px/2);
+  top: 1550px;
+
+  background: url(\фон2.png);
+  border-radius: 0px;
+}
+
+.txt1{
+  position: absolute;
+  width: 214px;
+  height: 30px;
+  left: calc(30% - 214px/2);
+  top: 1900px;
+  white-space:nowrap ;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.txt2{
+  position: absolute;
+  width: 214px;
+  height: 30px;
+  left: calc(70% - 214px/2);
+  top: 1900px;
+  white-space:nowrap ;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.txt-1{
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  left: calc(30% - 400px/2);
+  top: 1950px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.txt-2{
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  left: calc(70% - 400px/2);
+  top: 1950px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.txb1{
+    
+  position: absolute;
+  height: 43px;
+  left: 25%;
+  right: 0%;
+  top: 2010px;
+
+  /*border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 4px;*/
+}
+
+.txb2{
+  position: absolute;
+  height: 43px;
+  left: 65%;
+  right: 0%;
+  top: 2010px;
+
+  /*border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 4px;*/
+}
+
+.h1{
+  position: absolute;
+  width: 240px;
+  height: 36px;
+  left: calc(50% - 240px/2);
+  top: 2250px;
+  white-space:nowrap ;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: #676770;
+
+}
+.p1{
+  position: absolute;
+  width: 478px;
+  height: 20px;
+  left: calc(50% - 478px/2);
+  top: 2350px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height, or 118% */
+
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #8E8E9C;
+}
+
+.tb3-1{
+  position: absolute;
+  width: 136px;
+  height: 21px;
+  left: calc(30% - 136px/2);
+  top: 2450px;
+  white-space:nowrap ;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #000000;
+
+}
+
+.tb3-2{
+  position: absolute;
+  width: 136px;
+  height: 21px;
+  left: calc(50% - 136px/2);
+  top: 2450px;
+  white-space:nowrap ;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #000000;
+
+}
+.tb3-3{
+  position: absolute;
+  width: 136px;
+  height: 21px;
+  left: calc(70% - 136px/2);
+  top: 2450px;
+  white-space:nowrap ;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.fon3{
+  position: absolute;
+  width: 940px;
+  height: 627px;
+  left: calc(50% - 940px/2);
+  top: calc(440% - 627px/2 - 70.34px);
+
+  background: url(\фон3.png);
+  border-radius: 0px;
+}
+
+.h2{
+  position: absolute;
+  width: 232px;
+  height: 36px;
+  left: calc(50% - 232px/2);
+  top: 3150px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 36px;
+  /* identical to box height, or 116% */
+
+  text-align: center;
+
+  color: #676770;
+}
+
+.p1-1{
+  position: absolute;
+  width: 709px;
+  height: 25px;
+  left: calc(50% - 709px/2 + 0.5px);
+  top: 3220px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  /* identical to box height, or 192% */
+
+  text-align: center;
+
+  color: #6A859C;
+}
+
+.p1-2{
+  position: absolute;
+  width: 709px;
+  height: 25px;
+  left: calc(50% - 709px/2 + 0.5px);
+  top: 3240px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  /* identical to box height, or 192% */
+
+  text-align: center;
+
+  color: #6A859C;
+}
+
+.p1-3{
+  position: absolute;
+  width: 709px;
+  height: 25px;
+  left: calc(50% - 709px/2 + 0.5px);
+  top: 3260px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  /* identical to box height, or 192% */
+
+  text-align: center;
+
+  color: #6A859C;
+}
+
+.ab{
+  position: absolute;
+  height: 20px;
+  left: 3.13%;
+  right: 35%;
+  top: 3400px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: #676770;
+}
+
+.ab2{
+  
+  position: absolute;
+  height: 125px;
+  left: 3.13%;
+  right: 3.43%;
+  top: 3450px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+
+
+  color: #6A859C;
+}
